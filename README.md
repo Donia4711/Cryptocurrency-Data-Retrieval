@@ -15,6 +15,7 @@ To install the required dependencies, use the following command:
 ```bash
 pip install requests pandas ipywidgets bokeh
 
+
 Usage
 Replace 'X-CMC_PRO_API_KEY': 'YOUR_API_KEY' with your CoinMarketCap API key.
 Run the script.

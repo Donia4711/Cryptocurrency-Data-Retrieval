@@ -10,21 +10,6 @@ This script retrieves cryptocurrency data from the CoinMarketCap API, automating
 - ipywidgets
 - bokeh
 
-## Installation
-
-To install the required dependencies, use the following command:
-
-```bash
-pip install requests pandas ipywidgets bokeh
-
-## Usage
-1. Replace `'X-CMC_PRO_API_KEY': 'YOUR_API_KEY'` with your CoinMarketCap API key.
-2. Run the script.
-3. View the generated CSV file for cryptocurrency data and explore the analysis.
-
-## Code Overview
-The script utilizes various libraries for data retrieval, transformation, analysis, and visualization, including `requests`, `pandas`, `ipywidgets`, and `bokeh`.
-
 ## Data Retrieval
 The script makes API requests to CoinMarketCap API, retrieves the latest cryptocurrency listings, and stores the data in a DataFrame.
 

@@ -11,17 +11,19 @@ This script retrieves cryptocurrency data from the CoinMarketCap API, automating
 - bokeh
 
 ## Installation
+
 To install the required dependencies, use the following command:
+
 ```bash
 pip install requests pandas ipywidgets bokeh
 
-
 ## Usage
-Replace 'X-CMC_PRO_API_KEY': 'YOUR_API_KEY' with your CoinMarketCap API key.
-Run the script.
-View the generated CSV file for cryptocurrency data and explore the analysis.
-Code Overview
-The script utilizes various libraries for data retrieval, transformation, analysis, and visualization, including requests, pandas, ipywidgets, and bokeh.
+1. Replace `'X-CMC_PRO_API_KEY': 'YOUR_API_KEY'` with your CoinMarketCap API key.
+2. Run the script.
+3. View the generated CSV file for cryptocurrency data and explore the analysis.
+
+## Code Overview
+The script utilizes various libraries for data retrieval, transformation, analysis, and visualization, including `requests`, `pandas`, `ipywidgets`, and `bokeh`.
 
 ## Data Retrieval
 The script makes API requests to CoinMarketCap API, retrieves the latest cryptocurrency listings, and stores the data in a DataFrame.
@@ -42,10 +44,12 @@ Analysis is conducted to identify discrepancies between total supply and circula
 Interactive visualizations are created to explore cryptocurrency data, including distribution of cryptocurrencies based on platforms and the relationship between platform characteristics and performance. Price vs. volume analysis is also visualized.
 
 ## References
-CoinMarketCap API Documentation
-Requests Library Documentation
-Pandas Library Documentation
-ipywidgets Documentation
-Bokeh Library Documentation
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- [CoinMarketCap API Documentation](https://coinmarketcap.com/api/documentation/v1/#)
+- [Requests Library Documentation](https://docs.python-requests.org/en/latest/)
+- [Pandas Library Documentation](https://pandas.pydata.org/docs/)
+- [ipywidgets Documentation](https://ipywidgets.readthedocs.io/en/latest/)
+- [Bokeh Library Documentation](https://docs.bokeh.org/en/latest/index.html)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
